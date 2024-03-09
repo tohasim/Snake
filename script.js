@@ -6,11 +6,11 @@ window.addEventListener("load", start);
 document.getElementById("replayButton").addEventListener("click", restart);
 let shouldTick = true;
 
-const GRID_ROWS = 15;
+const GRID_ROWS = 30;
 const GRID_COLS = 20;
 
-const tickTiming = 100;
-const foodTiming = 5000;
+const tickTiming = 300;
+const foodTiming = 3000;
 var tickTimeout;
 var foodTimeout;
 
