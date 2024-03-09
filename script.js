@@ -9,7 +9,7 @@ let shouldTick = true;
 const GRID_ROWS = 30;
 const GRID_COLS = 20;
 
-const tickTiming = 300;
+const tickTiming = 150;
 const foodTiming = 3000;
 var tickTimeout;
 var foodTimeout;
